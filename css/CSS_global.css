@@ -3144,7 +3144,7 @@ hr {
 }
 
 /* ----------- FICHES DIVERSES (ADMIN, LIENS, RPS, SCÉNA) ----------- */
-.sc-fiche-admin, .sc-fiche-liens, .sc-fiche-scprofiles {
+.sc-fiche-admin, .sc-fiche-liens, .sc-fiche-scprofiles, .sc-fiche-scenas {
     margin: auto;
     padding: 20px;
     display: block;
@@ -3239,10 +3239,10 @@ hr {
   .sc-fiche-left { grid-area: 1 / 1 / 2 / 3; }
   .sc-fiche-right { grid-area: 1 / 3 / 2 / 6; }
 
-  .sc-fiche-liens-p1, .sc-fiche-rps {
+  .sc-fiche-liens-p1, .sc-fiche-rps, .sc-fiche-scenas-p1 {
     grid-template-rows: 250px;
   }
-  .sc-fiche-liens-p2 {
+  .sc-fiche-liens-p2, .sc-fiche-scenas-p2 {
     grid-template-rows: 375px;
   }
 
@@ -4039,7 +4039,7 @@ a[href*="/profile?mode=email&u=1"] {
     border-radius: 4px;
   }
   
-  .sc-presentation input, .sc-fiche-liens input, .sc-fiche-admin.has-onglets input {
+  .sc-presentation input, .sc-fiche-liens input, .sc-fiche-admin.has-onglets input, .sc-fiche-scenas input {
     display: none;
   }
   
@@ -4077,10 +4077,10 @@ a[href*="/profile?mode=email&u=1"] {
     color: var(--text2);
   }
   
-  .sc-presentation span.sc-onglets-content, .sc-fiche-liens span.sc-onglets-content, .sc-fiche-admin.has-onglets span.sc-onglets-content {
+  .sc-presentation span.sc-onglets-content, .sc-fiche-liens span.sc-onglets-content, .sc-fiche-admin.has-onglets span.sc-onglets-content, .sc-fiche-scenas span.sc-onglets-content {
     display: none;
   }
-  .sc-presentation input:checked + span.sc-onglets-content, .sc-fiche-liens input:checked + span.sc-onglets-content, .sc-fiche-admin.has-onglets input:checked + span.sc-onglets-content {
+  .sc-presentation input:checked + span.sc-onglets-content, .sc-fiche-liens input:checked + span.sc-onglets-content, .sc-fiche-admin.has-onglets input:checked + span.sc-onglets-content, .sc-fiche-scenas input:checked + span.sc-onglets-content {
     display: block;
   }
   
